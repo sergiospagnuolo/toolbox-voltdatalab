@@ -1,0 +1,55 @@
+  <div id="tool-list">
+    <div class="form-inline">
+			<div class="main-search-holder">
+      <div class="form-group">
+        <input id="toolSearch" type="text" placeholder="Find a tool" class="search form-control"/>
+        <br /><br />
+        <span class="sort btn btn-default" data-sort="nome">Organize by name</span>
+        <span class="sort btn btn-default" data-sort="tipo">Organize by category</span>
+      </div>
+		</div>
+    </div>
+<br />
+
+		<script type="text/javascript">
+		function reply_click(element) {
+			document.getElementById('toolSearch').value = element.getAttribute('data-product-name');
+		}
+		</script>
+    <ul class="list">
+			{% for tool in site.data.tools %}
+      <li class="max_list">
+        <h5 class="tipo tipo_card {{tool.tipo}}">{{tool.tipo}}</h5>
+        <h2 class="nome">{{ tool.nome }}</h2>
+        <p class="desc">{{ tool.descricao }}</p>
+				<p class="link"><a href="{{ tool.link }}" target="_blank">Link <i class="fa fa-external-link-square" aria-hidden="true"></i></a></p>
+      </li>
+			{% endfor %}
+    </ul>
+</div>
+<script>
+var options = {
+  valueNames: ['nome', 'desc', 'tipo']
+};
+var hackerList = new List('tool-list', options);
+
+// Assigning references to the filter buttons
+var filterTagButton = document.getElementById("filter");
+var removeFiltersButton = document.getElementById("removeFilters");
+
+// When the filter button is clicked. The list is filtered by calling the filter function of the list object and passing in a function that accepts the list items.
+filterTagButton.addEventListener("click", function() {
+  hackerList.filter(function(item) {
+    if (item.values().Desc == "data") {
+      return true;
+    } else {
+      return false;
+    }
+  }); // Only items that have Edmonton as the Desc.
+});
+
+// When the remove filter button is clicked, the filters are removed by calling the filter function once again with no parameters.
+removeFiltersButton.addEventListener("click", function() {
+  hackerList.filter();
+});
+</script>

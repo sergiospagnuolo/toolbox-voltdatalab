@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html>
+<head> <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="X-UA-Compatible" content="chrome=1" />
+<title>Volt Data Lab | Privacy and security tools for journalists</title>
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script src="javascripts/list.js"></script>
+<script src="javascripts/addtohomescreen.min.js"></script>
+<link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@300;700&family=Merriweather+Sans:wght@400;700&display=swap" rel="stylesheet">
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="../css/style.css" />
+<link rel="stylesheet" href="../css/bootstrap.css" />
+<!--<link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css">-->
+<!-- Latest compiled and minified JavaScript -->
+<script src="//netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
+<!-- font awesome! -->
+<script src="https://use.fontawesome.com/ebef64dc49.js"></script>
+<!-- Metas -->
+    <meta name="author" content="Volt Data Lab">
+    <meta name="description" content="Interactive list of tools used by Volt Data Lab" />
+    <meta name="keywords" content="data journalism, privacidade, ">
+    <meta name='url' content='http://toolbox.voltdata.info'>
+    <meta name='coverage' content='Global'>
+    <meta name='distribution' content='Global'>
+    <meta name='rating' content='General'>
+    <meta name='subtitle' content='Interactive list of tools used by Volt Data Lab'>
+    <meta name='target' content='all'>
+    <meta name='HandheldFriendly' content='True'>
+    <meta name='MobileOptimized' content='320'>
+    <meta property="og:image" content="" />
+    <meta property="og:url" content="http://toolbox.voltdata.info">
+    <meta property="og:title" content="Privacy and security tools for journalists">
+    <meta property="og:description" content="Interactive list of tools used by Volt Data Lab">
+ </head>
+<body>
+
+  <div class="navbar navbar-inverse" style="background-color:#f4f4f4">
+  <h1><img src="logo.png" width="90px" alt="volt logo" style="float:left"/></h1>
+  <h4><a href="https://www.voltdata.info/en-lg" style="float:right">About Volt Data Lab</a></h4>
+</div>
+
+
+<div class="container" style="margin: 2% auto">
+  <div class="form-inline">
+    <h2 style="max-width:600px;font-weight:400;line-height:1.3em;"><strong>Volt Data Lab's</strong> bag of tools for privacy, security, document sharing and technology for journalists.</h2>
+    <h2 style="max-width:600px;font-weight:400;line-height:1.3em;">These are the tools we use, but you can find many other privacy and security-related tools (untested by Volt) at <a href="https://www.privacytools.io/" target="_blank">privacytools.io</a>.</h2>
+    <br />
+    <h5 style="max-width:600px;font-weight:400;line-height:1.3em;"><a href="index">See this in cards format</a>.</h5>
+
+  <br />
+</div>
+</div>
+
+    <div class="container">
+
+
+<div id="entry-list">
+<div class="row" style="margin-bottom:10px;">
+		<input id="toolSearch" type="text" class="search form-control" placeholder='Find a tool' />
+</div>
+<script type="text/javascript">
+function reply_click(element) {
+	document.getElementById('toolSearch').value = element.getAttribute('data-product-name');
+}
+</script>
+
+<div class="row">
+<table class="table table-striped">
+	<thead>
+		<tr>
+			<th style="width:20%;"><span class="sort" data-sort="tool">Name</span></th>
+			<th style="width:40%;"><span class="sort" data-sort="description">Description</span></th>
+			<th style="width:20%;"><span class="sort" data-sort="tags">Tags</span></th>
+			<th style="width:10%;"><span class="sort" data-sort="link">Link</span></th>
+		</tr>
+	</thead>
+	<tbody class="list">
+	
+		<tr>
+			<td class="nome">PrivateBin</td>
+			<td class="desc">PrivateBin is a minimalist, open source online pastebin where the server has zero knowledge of pasted data. Data is encrypted/decrypted in the browser using 256 bits AES.</td>
+			<td class="tipo"><span class="privacy and security" style="color:#fff">privacy and security</span></td>
+			<td class="link"><a href="https://bin.privacytools.io/" target="_blank">link <i class="fa fa-external-link-square" aria-hidden="true"></i></a></td>
+		</tr>
+	
+		<tr>
+			<td class="nome">Signal</td>
+			<td class="desc">Messaging app. State-of-the-art end-to-end encryption (powered by the open source Signal Protocol) keeps your conversations secure. Privacy isn’t an optional mode — it’s just the way that Signal works. Every message, every call, every time.</td>
+			<td class="tipo"><span class="privacy and security" style="color:#fff">privacy and security</span></td>
+			<td class="link"><a href="https://signal.org/" target="_blank">link <i class="fa fa-external-link-square" aria-hidden="true"></i></a></td>
+		</tr>
+	
+		<tr>
+			<td class="nome">ProtonMail</td>
+			<td class="desc">ProtonMail is an email and also VPN service. All emails are secured automatically with end-to-end encryption. This means even we cannot decrypt and read your emails. As a result, your encrypted emails cannot be shared with third parties.</td>
+			<td class="tipo"><span class="privacy and security" style="color:#fff">privacy and security</span></td>
+			<td class="link"><a href="https://protonmail.com/" target="_blank">link <i class="fa fa-external-link-square" aria-hidden="true"></i></a></td>
+		</tr>
+	
+		<tr>
+			<td class="nome">ExifCleaner</td>
+			<td class="desc">ExifCleaner is a freeware, open source graphical app that uses ExifTool to remove exif metadata from images, videos, and PDF documents using a simple drag and drop interface. It supports multi-core batch processing and dark mode.</td>
+			<td class="tipo"><span class="privacy and security" style="color:#fff">privacy and security</span></td>
+			<td class="link"><a href="https://exifcleaner.com/" target="_blank">link <i class="fa fa-external-link-square" aria-hidden="true"></i></a></td>
+		</tr>
+	
+		<tr>
+			<td class="nome">Bitwarden</td>
+			<td class="desc">Bitwarden is a free and open-source password manager. It aims to solve password management problems for individuals, teams, and business organizations. Bitwarden is among the easiest and safest solutions to store all of your logins and passwords while conveniently keeping them synced between all of your devices. If you don't want to use the Bitwarden cloud, you can easily host your own Bitwarden server.</td>
+			<td class="tipo"><span class="privacy and security" style="color:#fff">privacy and security</span></td>
+			<td class="link"><a href="https://bitwarden.com/" target="_blank">link <i class="fa fa-external-link-square" aria-hidden="true"></i></a></td>
+		</tr>
+	
+		<tr>
+			<td class="nome">Have I Benn pwned</td>
+			<td class="desc">Check if you have an account that has been compromised in a data breach.</td>
+			<td class="tipo"><span class="privacy and security" style="color:#fff">privacy and security</span></td>
+			<td class="link"><a href="https://haveibeenpwned.com/" target="_blank">link <i class="fa fa-external-link-square" aria-hidden="true"></i></a></td>
+		</tr>
+	
+		<tr>
+			<td class="nome">NordVPN</td>
+			<td class="desc">A good, fair-priced VPN service.</td>
+			<td class="tipo"><span class="privacy and security" style="color:#fff">privacy and security</span></td>
+			<td class="link"><a href="https://nordvpn.com" target="_blank">link <i class="fa fa-external-link-square" aria-hidden="true"></i></a></td>
+		</tr>
+	
+		<tr>
+			<td class="nome">Nextcloud</td>
+			<td class="desc">Nextcloud is a suite of free and open-source client-server software for creating your own file hosting services on a private server you control.</td>
+			<td class="tipo"><span class="privacy and security" style="color:#fff">privacy and security</span></td>
+			<td class="link"><a href="https://nextcloud.com/" target="_blank">link <i class="fa fa-external-link-square" aria-hidden="true"></i></a></td>
+		</tr>
+	
+		<tr>
+			<td class="nome">Privnote</td>
+			<td class="desc">Send notes that will self-destruct after being read.</td>
+			<td class="tipo"><span class="privacy and security" style="color:#fff">privacy and security</span></td>
+			<td class="link"><a href="https://privnote.com/" target="_blank">link <i class="fa fa-external-link-square" aria-hidden="true"></i></a></td>
+		</tr>
+	
+		<tr>
+			<td class="nome">Outline</td>
+			<td class="desc">Outline lets news organizations easily provide their network safer access to the open internet. The Outline software allows for the creation of a personal or corporate VPN server</td>
+			<td class="tipo"><span class="privacy and security" style="color:#fff">privacy and security</span></td>
+			<td class="link"><a href="https://getoutline.org/en/home" target="_blank">link <i class="fa fa-external-link-square" aria-hidden="true"></i></a></td>
+		</tr>
+	
+		<tr>
+			<td class="nome">Intra</td>
+			<td class="desc">Intra protects you from DNS manipulation, a cyber attack used to block access to news sites, social media platforms and messaging apps.</td>
+			<td class="tipo"><span class="privacy and security" style="color:#fff">privacy and security</span></td>
+			<td class="link"><a href="https://getintra.org/#!/" target="_blank">link <i class="fa fa-external-link-square" aria-hidden="true"></i></a></td>
+		</tr>
+	
+		<tr>
+			<td class="nome">Privacy for Journalists</td>
+			<td class="desc">Website dedicated to inform and educate ordinary citizens and professionals on privacy and information security.</td>
+			<td class="tipo"><span class="privacy and security" style="color:#fff">privacy and security</span></td>
+			<td class="link"><a href="https://privacyforjournalists.org.au/" target="_blank">link <i class="fa fa-external-link-square" aria-hidden="true"></i></a></td>
+		</tr>
+	
+		<tr>
+			<td class="nome">Brave</td>
+			<td class="desc">The Brave browser is a fast, private and secure web browser for PC, Mac and mobile. </td>
+			<td class="tipo"><span class="web browsers and search" style="color:#fff">web browsers and search</span></td>
+			<td class="link"><a href="https://brave.com/" target="_blank">link <i class="fa fa-external-link-square" aria-hidden="true"></i></a></td>
+		</tr>
+	
+		<tr>
+			<td class="nome">Tor</td>
+			<td class="desc">Tor Browser isolates each website you visit so third-party trackers and ads can't follow you. Any cookies automatically clear when you're done browsing. So will your browsing history.</td>
+			<td class="tipo"><span class="web browsers and search" style="color:#fff">web browsers and search</span></td>
+			<td class="link"><a href="https://www.torproject.org/download/" target="_blank">link <i class="fa fa-external-link-square" aria-hidden="true"></i></a></td>
+		</tr>
+	
+		<tr>
+			<td class="nome">Searx</td>
+			<td class="desc">Search mechanism. Searx is a free internet metasearch engine which aggregates results from more than 70 search services. Users are neither tracked nor profiled. Additionally, searx can be used over Tor for online anonymity.</td>
+			<td class="tipo"><span class="web browsers and search" style="color:#fff">web browsers and search</span></td>
+			<td class="link"><a href="https://search.privacytools.io/" target="_blank">link <i class="fa fa-external-link-square" aria-hidden="true"></i></a></td>
+		</tr>
+	
+		<tr>
+			<td class="nome">Qwant</td>
+			<td class="desc">Qwant is a search engine with its philosophy based on two principles: no user tracking and no filter bubble. Qwant was launched in France in February 2013.</td>
+			<td class="tipo"><span class="web browsers and search" style="color:#fff">web browsers and search</span></td>
+			<td class="link"><a href="https://www.qwant.com/" target="_blank">link <i class="fa fa-external-link-square" aria-hidden="true"></i></a></td>
+		</tr>
+	
+		<tr>
+			<td class="nome">Workbench</td>
+			<td class="desc">All your data tools in one simple place. Workbench brings all the steps of day-to-day data analysis into one collaborative document, in your browser.</td>
+			<td class="tipo"><span class="documents and data" style="color:#fff">documents and data</span></td>
+			<td class="link"><a href="http://workbenchdata.com" target="_blank">link <i class="fa fa-external-link-square" aria-hidden="true"></i></a></td>
+		</tr>
+	
+		<tr>
+			<td class="nome">Kaggle</td>
+			<td class="desc">Kaggle offers a no-setup, customizable, Jupyter Notebooks environment. Access free GPUs and a huge repository of community published data & code.</td>
+			<td class="tipo"><span class="documents and data" style="color:#fff">documents and data</span></td>
+			<td class="link"><a href="https://www.kaggle.com/" target="_blank">link <i class="fa fa-external-link-square" aria-hidden="true"></i></a></td>
+		</tr>
+	
+		<tr>
+			<td class="nome">Airtable</td>
+			<td class="desc">Part spreadsheet, part database, and entirely flexible, teams use Airtable to organize their work, their way. Airtable Blocks give you a creative palette of app-like functionality that you can mix and match to create the perfect workflow for your team.</td>
+			<td class="tipo"><span class="documents and data" style="color:#fff">documents and data</span></td>
+			<td class="link"><a href="https://airtable.com/" target="_blank">link <i class="fa fa-external-link-square" aria-hidden="true"></i></a></td>
+		</tr>
+	
+		<tr>
+			<td class="nome">Standard Notes</td>
+			<td class="desc">A free, open-source, and completely encrypted notes app. Standard Notes is free to use on every platform, and comes standard with cross-platform sync and end-to-end privacy. For those wanting a little more power and flexibility, we created Extended, which unlocks powerful editors, themes, and automated backups.</td>
+			<td class="tipo"><span class="documents and data" style="color:#fff">documents and data</span></td>
+			<td class="link"><a href="https://standardnotes.org" target="_blank">link <i class="fa fa-external-link-square" aria-hidden="true"></i></a></td>
+		</tr>
+	
+		<tr>
+			<td class="nome">Tresorit</td>
+			<td class="desc">End-to-End Encrypted File Sync & Sharing. Tresorit is the ultra-secure place in the cloud to store, sync and share files easily from anywhere, anytime.</td>
+			<td class="tipo"><span class="documents and data" style="color:#fff">documents and data</span></td>
+			<td class="link"><a href="https://tresorit.com/" target="_blank">link <i class="fa fa-external-link-square" aria-hidden="true"></i></a></td>
+		</tr>
+	
+		<tr>
+			<td class="nome">Send</td>
+			<td class="desc">Firefox Send lets you share files with end-to-end encryption and a link that automatically expires. So you can keep what you share private and make sure your stuff doesn’t stay online forever. </td>
+			<td class="tipo"><span class="documents and data" style="color:#fff">documents and data</span></td>
+			<td class="link"><a href="https://send.firefox.com/" target="_blank">link <i class="fa fa-external-link-square" aria-hidden="true"></i></a></td>
+		</tr>
+	
+		<tr>
+			<td class="nome">Sync</td>
+			<td class="desc">Sync makes it easy to store, share and access your files from just about anywhere. Best of all, Sync protects your privacy with end-to-end encryption — ensuring that your data in the cloud is safe, secure and 100% private.</td>
+			<td class="tipo"><span class="documents and data" style="color:#fff">documents and data</span></td>
+			<td class="link"><a href="https://www.sync.com/" target="_blank">link <i class="fa fa-external-link-square" aria-hidden="true"></i></a></td>
+		</tr>
+	
+		<tr>
+			<td class="nome">Overviewdocs</td>
+			<td class="desc">Overview is an open-source platform that helps you read and analyze thousands of documents super quickly. It includes full text search, visualizations, entity detection, topic clustering, and more. All in an easy-to use, visual workflow.</td>
+			<td class="tipo"><span class="documents and data" style="color:#fff">documents and data</span></td>
+			<td class="link"><a href="https://www.overviewdocs.com/" target="_blank">link <i class="fa fa-external-link-square" aria-hidden="true"></i></a></td>
+		</tr>
+	
+		<tr>
+			<td class="nome">Databin</td>
+			<td class="desc">databin helps you to share tabular data — a few rows from Excel or a result from a SQL prompt — with others.</td>
+			<td class="tipo"><span class="documents and data" style="color:#fff">documents and data</span></td>
+			<td class="link"><a href="http://databin.pudo.org" target="_blank">link <i class="fa fa-external-link-square" aria-hidden="true"></i></a></td>
+		</tr>
+	
+		<tr>
+			<td class="nome">Coda</td>
+			<td class="desc">Coda is a cloud-based document editor.</td>
+			<td class="tipo"><span class="documents and data" style="color:#fff">documents and data</span></td>
+			<td class="link"><a href="https://coda.io/" target="_blank">link <i class="fa fa-external-link-square" aria-hidden="true"></i></a></td>
+		</tr>
+	
+		<tr>
+			<td class="nome">Dropbox Paper</td>
+			<td class="desc">Paper is a workspace that brings creation and coordination together in one place. Write and edit, brainstorm, review designs, manage tasks, or run meetings.</td>
+			<td class="tipo"><span class="documents and data" style="color:#fff">documents and data</span></td>
+			<td class="link"><a href="https://www.dropbox.com/paper" target="_blank">link <i class="fa fa-external-link-square" aria-hidden="true"></i></a></td>
+		</tr>
+	
+	</tbody>
+</table>
+</div>
+
+</div>
+
+<script type="text/javascript">
+
+var options = {
+  valueNames: ['nome', 'desc', 'tipo']
+};
+
+var entryList = new List('entry-list', options);
+
+var filterCityButton = document.getElementById("filter");
+var removeFiltersButton = document.getElementById("removeFilters");
+
+</script>
+
+
+<div class="row">
+  <p><em><small>Built with <i class="fa fa-heart fa-lg"></i> by Volt Data Lab, using <a href="https://jekyllrb.com/">Jekyll</a>.</small></em></p>
+</div>
+</div>
+
+
+</body>
+</html>
