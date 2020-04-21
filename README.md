@@ -1,1 +1,1 @@
-Página de ferramentas utilizadas pela equipe do Vortex
+Privacy and documento tools for journalists
